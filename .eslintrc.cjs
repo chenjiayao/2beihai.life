@@ -15,6 +15,7 @@ const config = {
       rules: {
         '@typescript-eslint/no-misused-promises': 'off',
         '@typescript-eslint/no-unsafe-call': 'off',
+        'simple-import-sort/imports':'off',
         '@typescript-eslint/no-unsafe-member-access': 'off',
         '@typescript-eslint/no-unsafe-assignment': 'off',
       },
