@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     default: seo.title,
   },
   description: seo.description,
-  keywords: 'JayChen,郭晓楠,佐玩,创始人,CEO,开发者,设计师,细节控,创新',
+  keywords: 'JayChen,开发者',
   manifest: '/site.webmanifest',
   robots: {
     index: true,
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: 'JayChen',
     locale: 'zh_CN',
     type: 'website',
-    url: 'https://cali.so',
+    url: 'https://2beihai.life',
   },
   twitter: {
     site: '@thecalicastle',
