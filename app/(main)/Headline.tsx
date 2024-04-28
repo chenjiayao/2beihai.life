@@ -62,9 +62,7 @@ export function Headline() {
           duration: 0.3,
         }}
       >
-        <Developer />，<Designer />，
-        <span className="block h-2" />
-        <OCD />，<Founder />
+        <Developer />
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"

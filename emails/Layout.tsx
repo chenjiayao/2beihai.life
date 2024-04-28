@@ -50,7 +50,7 @@ export default function Layout({
                   <strong>JayChen</strong>
                 </Link>
                 <br />
-                开发者、设计师、细节控、创始人
+                开发者
               </Text>
             </Section>
           </Container>
