@@ -47,7 +47,7 @@ export default function AskMeAnythingPage() {
         </ul>
 
         <p>你可以使用冥想支付费用，一旦完成支付，通过意念随时和我沟通。</p>
-        <strong>希望这次的沟通可以帮助到你。😘</strong>
+        <strong>希望这次沟通可以帮助到你。😘</strong>
       </article>
     </Container>
   )
