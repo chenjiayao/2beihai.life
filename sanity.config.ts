@@ -7,6 +7,10 @@ import { visionTool } from '@sanity/vision'
 import { defineConfig } from 'sanity'
 import { structureTool } from 'sanity/structure'
 import { media } from 'sanity-plugin-media'
+import {markdownSchema} from 'sanity-plugin-markdown/next'
+import 'easymde/dist/easymde.min.css'
+
+
 
 import { settingsPlugin, settingsStructure } from '~/sanity/plugins/settings'
 
@@ -33,5 +37,6 @@ export default defineConfig({
     }),
     media(),
     codeInput(),
+    markdownSchema(),
   ],
 })
