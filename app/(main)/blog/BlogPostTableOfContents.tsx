@@ -18,6 +18,7 @@ interface Node {
 }
 
 const parseOutline = (nodes: Node[]) => {
+  return []
   return nodes
     .filter((node) => node._type === 'block' && node.style.startsWith('h'))
     .map((node) => {
