@@ -7,12 +7,21 @@ export  function Projects() {
       name: 'Time On Web',
       url: 'https://howmuchtimeihavespendonline.com',
       description: 'Time On Web 是一款 Chrome extension，用来记录用户在每个网站的访问时长， 并且支持访问限制、白名单等一系列功能。这款扩展是我第一款独立产品，希望你也喜欢。🥰',
+      // icon: 'https://cdn.sanity.io/images/39svnmtd/production/3b446bbe98b3b10f34cfabae65355b23532fc494-600x600.png',
       icon: {
-        _ref: 'https://cdn.sanity.io/images/39svnmtd/production/3b446bbe98b3b10f34cfabae65355b23532fc494-600x600.png',
+        _ref: 'image-3b446bbe98b3b10f34cfabae65355b23532fc494-600x600-png',
+        asset: {
+          _type: 'sanity.imageAsset',
+          metadata: {
+            dimensions: {
+              width: 600,
+              height: 600,
+            },
+          },
+        },
       },
     },
   ]
-
   return (
     <ul
       role="list"
