@@ -50,7 +50,7 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是。。。算了，没啥可以拿得出手的 title，一个普通人。在认真的活着就是😉。
+          我的城堡说欢迎光临😉。
         </Balancer>
       </motion.p>
       <motion.div
